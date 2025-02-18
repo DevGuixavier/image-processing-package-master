@@ -1,0 +1,46 @@
+Metadata-Version: 2.2
+Name: package_name
+Version: 0.0.1
+Summary: A short description of the package
+Home-page: my_github_repository_project_link
+Author: Author Name
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: scikit-image>=0.16.1
+Dynamic: author
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# package_name
+
+Description. 
+The package package_name is used to:
+	Processing:
+		- Histogram matching 
+		- Structural similarity 
+		- Resize image
+	Utils: 
+		- Read image
+		- Save Image
+		- Plot result
+		- PLot histogram 	
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_name
+
+```bash
+pip install package_name
+```
+
+## Author
+Guilherme
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
